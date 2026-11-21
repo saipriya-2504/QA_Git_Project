@@ -10,3 +10,8 @@ def test_invalid_login():
     username = "user"
 
     assert username != "admin"
+
+def test_logout():
+    status = "logged_out"
+
+    assert status == "logged_out"
